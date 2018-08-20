@@ -1,0 +1,12 @@
+Components using Jquery
+
+1. Collapse component - accordion format
+	-> used basic slideToggle to collapse.
+	-> applied custom css using jquery.
+2. Navbar component
+	-> used click method to add and remove classes
+	-> applied custom css using jquery.
+3: 3. Modal component
+	-> used overlay and z-index in it.
+	-> applied custom css using jquery.
+

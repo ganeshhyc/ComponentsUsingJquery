@@ -1,0 +1,10 @@
+$(document).ready(()=>{
+  $('.collapse-content').addClass('jquery-collapse-content')
+  $('.collapse-header').addClass('jquery-collapse-header')
+  $('.code').addClass('code-style')
+  $('.collapse-header').click(
+    ()=>{
+         $('.jquery-collapse-content').slideToggle("slow");
+    }
+  )
+})

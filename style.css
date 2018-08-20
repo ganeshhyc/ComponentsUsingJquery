@@ -1,0 +1,35 @@
+.jquery-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #D8D8D8;
+}
+.jquery-col {
+  height: 300px;
+  background-color: white;
+  border: solid black;
+}
+@media screen and (min-width:768px){
+  .jquery-col {
+    width:50%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width:480px) and (max-width:768px){
+  .jquery-col {
+    width:50%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:480px){
+  .jquery-col {
+    width:100%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+  }
+}
